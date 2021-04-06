@@ -59,7 +59,7 @@ header ~ div {
 } /* applied to every element with the value of article for the role attribute */
 
 /* Not selector */
-not(p) { 
+:not(p) { 
     color: gold;
 } /* applied to all elements that are not the indicated element */
 
@@ -108,7 +108,7 @@ are the first of type <p> in their parent */
 /* pseudo-element selector */
 p::after{
     content: url(../smiley.gif)
-} /* applied before ANY <h2> element */ `
+} /* applied before ANY <h2> element */
 
 /* Pseudo-element selector */
 ::selection {
